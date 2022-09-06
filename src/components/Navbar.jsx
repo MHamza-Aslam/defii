@@ -13,7 +13,7 @@ const handleClose=()=>setNav(!nav)
             <div className="flex items-center ">
                 <h1 className='mr-4 text-3xl font-bold sm:text-4xl'>BRAND.</h1>
                 <ul className='hidden md:flex'>
-                <li className='font-bold'><Link   to="Home"   smooth={true}  duration={500}>Homexyzzzz</Link></li>
+                <li className='font-bold'><Link   to="Home"   smooth={true}  duration={500}>Home</Link></li>
                 <li className='font-bold'><Link   to="About"   smooth={true} offset={-200} duration={500}>About</Link></li>
                 <li className='font-bold'><Link   to="Support"   smooth={true} offset={-50} duration={500}>Support</Link></li>
                 <li className='font-bold'><Link   to="Platform"   smooth={true} offset={-100} duration={500}>Platforms</Link></li>
